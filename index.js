@@ -13,6 +13,8 @@ const firebaseConfig = {
   authDomain: "chat-freely-b9daa.firebaseapp.com",
   projectId: "chat-freely-b9daa",
   storageBucket: "chat-freely-b9daa.firebasestorage.app",
+  databaseURL:
+    "https://chat-freely-b9daa-default-rtdb.asia-southeast1.firebasedatabase.app/",
   messagingSenderId: "533665648144",
   appId: "1:533665648144:web:fd3081fbff1ae5e23fc495",
   measurementId: "G-5T4E7ZDL7E",

@@ -5,7 +5,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Chat Freely</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-gray-900 text-gray-200 transition-all">
@@ -17,7 +17,7 @@
         <h1 class="text-3xl font-bold" style="font-family: 'Dancing Script', cursive;">Chat Freely</h1>
         <div class="flex items-center space-x-4">
             <div class="text-sm">
-                Active Users: <span class="font-bold" id="activeUsers">5</span>
+                Active Users: <span class="font-bold" id="activeUsers">0</span>
             </div>
         </div>
     </header>
@@ -34,14 +34,14 @@
     <footer class="p-4 bg-gray-800 border-t border-gray-700 flex items-center">
         <input
                 class="flex-1 p-3 border border-gray-700 rounded-lg bg-gray-800 text-gray-200 focus:outline-none focus:ring focus:ring-blue-500"
-                placeholder="Type a message..."
-                type="text" id="messageInput"
+                id="messageInput"
+                placeholder="Type a message..." spellcheck="false" type="text"
         />
         <button class="ml-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600" id="send">
             Send
         </button>
     </footer>
 </div>
-</body>
 <script src="chat.js" type="module"></script>
+</body>
 </html>
