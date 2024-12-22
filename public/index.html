@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat freely</title>
+    <link href="./dist/styles.css" rel="stylesheet">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<style>
+    header {
+        font-family: Dancing Script, cursive;
+        font-size: 80px;
+    }
+</style>
+<body class="bg-blue-500 flex justify-center items-center h-screen flex-col">
+<header class="w-full h-[20vh] bg-blue-500 text-center font-black underline underline-offset-4">Chat freely</header>
+<div class="container w-full h-[75vh] flex justify-center items-center flex-col">
+    <button
+            class="w-1/2 border-2 border-black rounded-3xl h-14 px-2 py-1 m-6 hover:border-none flex items-center justify-center flex-row"
+            id="google-sign-in" type="button"><img alt="google"
+                                                   class="h-10 w-10 object-contain mx-1"
+                                                   src="./images/google.png"><b
+            class="no-underline hover:underline decoration-black">Google
+    </b></button>
+    <p class="font-semibold text-slate-200 m-3">OR</p>
+    <button class="w-1/2 border-2 border-black rounded-3xl h-14 px-2 py-1 m-6 hover:border-none flex items-center justify-center flex-row"
+            id="github-sign-in" type="button"><img
+            alt="Github" class="h-10 w-10 object-contain mx-1" src="./images/github.png"><b
+            class="no-underline hover:underline">
+        Github</b></button>
+</div>
+</body>
+<script src="./index.js" type="module"></script>
+</html>
